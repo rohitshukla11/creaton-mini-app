@@ -16,7 +16,6 @@ function App() {
   }, []);
 
   // Enable debug mode to see all the methods sent and events received.
-
   useEffect(() => {
     if (debug) {
       import('eruda').then((lib) => lib.default.init());
